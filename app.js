@@ -1,10 +1,6 @@
-var name= window.prompt("Enter your name");
-if(name==="abhinav"){
-  alert("To see you smile, I will walk many a mile. To hear you talk, Hundred miles will I walk. To touch your hand ,I will cross seven seas and land. You are my love, And everything else that is mine. ilysm ❤️");
-}
-else{
-  alert("Hey there! Please click different buttons to listen to drum sounds. Enjoy!");
-}
+
+alert("Hey there! Please click different buttons to listen to drum sounds. Enjoy!");
+
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
